@@ -1,0 +1,21 @@
+.rtl .wp-block-html textarea,
+.rtl .wp-block-shortcode textarea {
+	direction: ltr;
+	text-align: left;
+	unicode-bidi: embed;
+}
+
+.rtl .wp-block-html textarea::placeholder,
+.rtl .wp-block-shortcode textarea::placeholder,
+.rtl .block-editor-rich-text__editable [data-rich-text-placeholder],
+.rtl input[type=email]::placeholder,
+.rtl input[type=url]::placeholder {
+	direction: rtl;
+	text-align: right;
+	unicode-bidi: embed;
+}
+
+.rtl .block-editor-rich-text__editable [data-rich-text-placeholder] {
+	display: inline-block;
+	width: 100%;
+}
