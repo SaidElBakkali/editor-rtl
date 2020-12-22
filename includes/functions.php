@@ -2,7 +2,7 @@
 /**
  * Plugin's functions file.
  *
- * @package Editor_RTL_Fixes
+ * @package Editor_RTL
  * @author Said El Bakkali <contact@saidelbakkali.com>
  * @license GPL-2.0-or-later
  * @since 1.0.0
@@ -21,6 +21,6 @@ add_action(
 			return;
 		}
 
-		wp_enqueue_style( 'editor-rtl-fixes', EDTOR_RTL_FIXES_URL . 'assets/css/style.css', array(), EDTOR_RTL_FIXES_VERSION );
+		wp_enqueue_style( 'editor-rtl', EDTOR_RTL_URL . 'assets/css/style.css', array(), EDTOR_RTL_VERSION );
 	}
 );

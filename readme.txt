@@ -1,12 +1,12 @@
 === Editor RTL Fixes ===
-Contributors:		sa3idho
-Tags:				editor, rtl
-Requires at least: 	5.5
-Tested up to: 		5.5
-Requires PHP: 		5.6
-Stable tag: 		1.0.0
-License: 			GPLv3
-License URI: 		https://www.gnu.org/licenses/gpl-3.0.html
+Contributors:       sa3idho
+Tags:               editor, rtl
+Requires at least:  5.5
+Tested up to:       5.6
+Requires PHP:       5.6
+Stable tag:         1.0.2
+License:            GPLv3
+License URI:        https://www.gnu.org/licenses/gpl-3.0.html
 
 A simple plugin that fixes some editor issues in RTL languages.
 
@@ -23,8 +23,8 @@ Email and url inputs of any other block.
 * The first method (the easiest)
 1. Click Plugins in the menu
 2. Click Add New
-3. In search field type "Editor RTL" (without quotes)
-4. Find Editor RTL in the list and click Install Now.
+3. In search field type "Editor RTL Fixes" (without quotes)
+4. Find "Editor RTL Fixes" in the list and click Install Now.
 
 * The second method
 1. Download the plugin to your computer
@@ -41,3 +41,5 @@ Email and url inputs of any other block.
 
 = 1.0.0 =
 * First released version.
+= 1.0.2 =
+* Tested up to WordPress 5.6
