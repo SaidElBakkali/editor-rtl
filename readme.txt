@@ -4,7 +4,7 @@ Tags:               editor, rtl
 Requires at least:  5.5
 Tested up to:       5.6
 Requires PHP:       5.6
-Stable tag:         1.0.2
+Stable tag:         1.0.3
 License:            GPLv3
 License URI:        https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,3 +43,5 @@ Email and url inputs of any other block.
 * First released version.
 = 1.0.2 =
 * Tested up to WordPress 5.6
+= 1.0.3 =
+* Tested up to WordPress 5.7
