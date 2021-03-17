@@ -5,12 +5,12 @@ on:
       - "*"
 jobs:
   tag:
-    name: Version 1.0.3
+    name: New tag
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - name: WordPress Plugin Deploy
-        uses: 10up/action-wordpress-plugin-deploy@master
+        uses: 10up/action-wordpress-plugin-deploy@stable
         env:
           SVN_PASSWORD: ${{ secrets.WP_SVN_PASSWORD}}
           SVN_USERNAME: ${{ secrets.WP_SVN_USERNAME }}
